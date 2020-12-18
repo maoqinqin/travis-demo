@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "father build --esm --cjs",
     "jest": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
