@@ -6,4 +6,4 @@ function sum(a,b) {
   debugger;
                  return a +b;
   }
-                module.exports = foo;
+                module.exports = sum;
