@@ -1,7 +1,11 @@
+function sum(a, b) {
+  return a + b;
+}
 
- function sum(a,b) {
-                 return a +b;
-  };
+// foo(reallyLongArg(),omgSoManyParameters(),IShouldRefactorThis(),isThereSeriouslyAnotherOne());
 
-  module.exports = sum;
-                
+const a = "2";
+
+const b = "3";
+
+module.exports = { sum, a, b };
